@@ -2,18 +2,22 @@
     font-family: Poppins-Bold;
     src: url(../fonts/Poppins-Bold.ttf);
 }
+
 @font-face {
     font-family: Poppins-Medium;
     src: url(../fonts/Poppins-Medium.ttf);
 }
+
 @font-face {
     font-family: Poppins-Regular;
     src: url(../fonts/Poppins-Regular.ttf);
 }
+
 @font-face {
     font-family: Poppins-SemiBold;
     src: url(../fonts/Poppins-SemiBold.ttf);
 }
+
 *,
 *::after,
 *::before {
@@ -21,19 +25,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
-.uniPadding{
-    padding: 0px 5%;
+
+.uniPadding {
+    padding: 0px 7%;
 }
+
+
 /* topbar */
-#topbar{
+
+#topbar {
     background-color: black;
     color: white;
     font-size: 20px;
@@ -44,108 +54,182 @@ a:hover{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#leftPart, #rightPart{
+
+#leftPart,
+#rightPart {
     display: flex;
     width: 50%;
     flex-wrap: wrap;
 }
-#rightPart{
+
+#rightPart {
     justify-content: space-between;
 }
-#checkNow{
+
+#checkNow {
     font-family: Poppins-Medium;
 }
-#checkNow a{
+
+#checkNow a {
     color: #EE9617
 }
-#comtactSupport{
+
+#comtactSupport {
     padding-left: 100px;
 }
-#comtactSupport a{
+
+#comtactSupport a {
     color: white;
 }
+
+
 /* Poster Section */
-#posterSection{
+
+#posterSection {
     background-image: url(../images/background.png);
     background-size: cover;
     background-position: center;
     color: white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
-#row{
+
+#row {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
     font-family: Poppins-Medium;
+    flex-wrap: wrap;
 }
-#logo{
+
+#logo {
     font-size: 46px;
-    padding: 10px 0px;    
+    padding: 10px 0px;
 }
-#navbar ul li{
+
+#navbar ul li {
     text-decoration: none;
     display: inline-block;
     padding: 15px 10px;
     font-size: 20px;
 }
-#btnTry4Free p{
+
+#btnTry4Free p {
     font-size: 20px;
     background-color: #D44800;
     padding: 10px 30px;
-    border: 1px solid #D44800 ;
+    border: 1px solid #D44800;
     border-radius: 100px;
 }
-#posterInfo{
+
+#posterInfo {
     width: 50%;
     padding: 150px 0px;
     justify-items: center;
-
 }
-#posterInfo h5{
+
+#posterInfo h5 {
     font-size: 14px;
     font-family: Poppins-Regular;
     opacity: 80%;
 }
-#posterInfo h2{
+
+#posterInfo h2 {
     font-size: 36px;
     font-family: Poppins-SemiBold;
 }
-#posterInfo h1{
+
+#posterInfo h1 {
     font-size: 89px;
     font-family: Poppins-Bold;
 }
-#posterInfo p{
+
+#posterInfo p {
     font-family: Poppins-Regular;
     font-size: 22px;
 }
-#posterBtns{
+
+#posterBtns {
     display: flex;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     font-size: 20px;
     font-family: Poppins-Medium;
 }
-#transparrentBtn{
+
+#transparrentBtn {
     font-size: 20px;
     background-color: transparent;
     padding: 10px 30px;
-    border: 1px solid white ;
+    border: 1px solid white;
     border-radius: 100px;
-    
 }
+
 #planBtn {
     margin-left: 30px;
     font-size: 20px;
     background-color: white;
     color: #D44800;
     padding: 10px 30px;
-    border: 1px solid #D44800 ;
+    border: 1px solid #D44800;
     border-radius: 100px;
     box-shadow: 3px 5px 10px black;
 }
-#planBtn a{
+
+#planBtn a {
     color: #D44800;
 }
 
 
+/* Trusted By Section */
 
+#trustedBySection {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#title {
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    display: flex;
+    padding: 40px 0px;
+}
+
+#errowIcon {
+    margin-left: 20px;
+}
+
+#trustedLogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Our Applications Hosting Services Section */
+
+#hostingSection {
+    background-image: url(../images/background02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hostingInfo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#hostingInfo h1 {
+    font-size: 54px;
+    font-family: Poppins-Medium;
+}
+
+#hostingInfo h1 b {
+    color: red;
+}
+
+#hostingInfo p {
+    font-size: 22px;
+    font-family: Poppins-Regular;
+    padding: 30px 0px;
+}
