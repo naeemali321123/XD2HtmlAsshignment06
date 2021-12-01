@@ -1,235 +1,377 @@
-@font-face {
-    font-family: Poppins-Bold;
-    src: url(../fonts/Poppins-Bold.ttf);
-}
-
-@font-face {
-    font-family: Poppins-Medium;
-    src: url(../fonts/Poppins-Medium.ttf);
-}
-
-@font-face {
-    font-family: Poppins-Regular;
-    src: url(../fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-    font-family: Poppins-SemiBold;
-    src: url(../fonts/Poppins-SemiBold.ttf);
-}
-
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.uniPadding {
-    padding: 0px 7%;
-}
-
-
-/* Contact Bar */
-
-#ContactBar {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-family: Poppins-Regular;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-#leftPart a {
-    color: #EE9617
-}
-#rightPart {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-#rightPart a{
-    padding-left:40px;
-}
-
-/* Poster Section */
-
-#posterSection {
-    background-image: url(../images/background.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-bottom: 250px;
-}
-
-#posterTopbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px;
-    font-family: Poppins-Medium;
-    flex-wrap: wrap;
-}
-
-#logo {
-    font-size: 46px;
-    padding: 10px 0px;
-}
-
-#navbar ul li {
-    text-decoration: none;
-    display: inline-block;
-    padding: 28px 15px;
-    font-size: 20px;
-}
-#btnTry4Free{
-    padding: 30px 0px;
-}
-#btnTry4Free a {
-    font-size: 20px;
-    background-color: #D44800;
-    padding: 10px 30px;
-    border: 1px solid #D44800;
-    border-radius: 100px;
-    box-shadow: 0px 2px 7px black;
-}
-
-#posterInfo {
-    width: 60%;
-    padding: 150px 0px;
-}
-
-#posterInfo h5 {
-    font-size: 14px;
-    font-family: Poppins-Regular;
-    opacity: 80%;
-    padding: 20px 0px;
-}
-
-#posterInfo h2 {
-    font-size: 36px;
-    font-family: Poppins-SemiBold;
-}
-
-#posterInfo h1 {
-    font-size: 89px;
-    font-family: Poppins-Bold;
-}
-
-#posterInfo p {
-    font-family: Poppins-Regular;
-    font-size: 22px;
-    padding-bottom: 50px ;
-}
-
-#posterBtnSection {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    font-family: Poppins-Medium;
-}
-
-#transparrentBtn p{
-    font-size: 20px;
-    background-color: transparent;
-    padding: 10px 30px;
-    border: 1px solid white;
-    border-radius: 100px;
-    box-shadow: 0px 2px 7px black;
-}
-
-#planBtn p{
-    margin-left: 30px;
-    font-size: 20px;
-    background-color: white;
-    color: #D44800;
-    padding: 10px 30px;
-    border: 1px solid #D44800;
-    border-radius: 100px;
-    box-shadow: 0px 2px 7px black;
-}
-
-#planBtn a {
-    color: #D44800;
-}
-
-
-/* Trusted By Section */
-
-#trustedBySection {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#heading {
-    font-size: 20px;
-    font-family: Poppins-Medium;
-    display: flex;
-    padding: 40px 0px;
-}
-
-#errowIcon {
-    margin-left: 10px;
-}
-
-#trustedLogo {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-/* Our Applications Hosting Services Section */
-
-#hostingSection {
-    text-align: center;
-}
-#hostingInfo{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 0px;
-    justify-content: space-between;
-}
-#hostingText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20%;
-
-}
-#hostingText>hr{
-    width: 20%;
-    border: 1px solid black;
-    margin-bottom: 30px;
-}
-
-#hostingInfo h1 {
-    font-size: 54px;
-    font-family: Poppins-Medium;
-}
-
-#hostingInfo h1 b {
-    color: red;
-}
-
-#hostingInfo p {
-    font-size: 22px;
-    font-family: Poppins-Regular;
-    padding: 30px 0px;
-}
+        @font-face {
+            font-family: Poppins-Bold;
+            src: url(../fonts/Poppins-Bold.ttf);
+        }
+        
+        @font-face {
+            font-family: Poppins-Medium;
+            src: url(../fonts/Poppins-Medium.ttf);
+        }
+        
+        @font-face {
+            font-family: Poppins-Regular;
+            src: url(../fonts/Poppins-Regular.ttf);
+        }
+        
+        @font-face {
+            font-family: Poppins-SemiBold;
+            src: url(../fonts/Poppins-SemiBold.ttf);
+        }
+        
+        *,
+        *::after,
+        *::before {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .uniPadding {
+            padding: 0px 7%;
+        }
+        /* Contact Bar */
+        
+        #ContactBar {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            font-family: Poppins-Regular;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        #leftPart a {
+            color: #EE9617
+        }
+        
+        #rightPart {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        #rightPart a {
+            padding-left: 40px;
+        }
+        /* Poster Section */
+        
+        #posterSection {
+            background-image: url(../images/background.png);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-bottom: 250px;
+        }
+        
+        #posterTopbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+            font-family: Poppins-Medium;
+            flex-wrap: wrap;
+        }
+        
+        #logo {
+            font-size: 46px;
+            padding: 10px 0px;
+        }
+        
+        #navbar ul li {
+            text-decoration: none;
+            display: inline-block;
+            padding: 28px 15px;
+            font-size: 20px;
+        }
+        
+        #btnTry4Free {
+            padding: 30px 0px;
+        }
+        
+        #btnTry4Free a {
+            font-size: 20px;
+            background-color: #D44800;
+            padding: 10px 30px;
+            border: 1px solid #D44800;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #posterInfo {
+            width: 60%;
+            padding: 150px 0px;
+        }
+        
+        #posterInfo h5 {
+            font-size: 14px;
+            font-family: Poppins-Regular;
+            opacity: 80%;
+            padding: 20px 0px;
+        }
+        
+        #posterInfo h2 {
+            font-size: 36px;
+            font-family: Poppins-SemiBold;
+        }
+        
+        #posterInfo h1 {
+            font-size: 89px;
+            font-family: Poppins-Bold;
+        }
+        
+        #posterInfo p {
+            font-family: Poppins-Regular;
+            font-size: 22px;
+            padding-bottom: 50px;
+        }
+        
+        #posterBtnSection {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
+            font-family: Poppins-Medium;
+        }
+        
+        #transparrentBtn p {
+            font-size: 20px;
+            background-color: transparent;
+            padding: 10px 30px;
+            border: 1px solid white;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #planBtn p {
+            margin-left: 30px;
+            font-size: 20px;
+            background-color: white;
+            color: #D44800;
+            padding: 10px 30px;
+            border: 1px solid #D44800;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #planBtn a {
+            color: #D44800;
+        }
+        /* Trusted By Section */
+        
+        #trustedBySection {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        #heading {
+            font-size: 20px;
+            font-family: Poppins-Medium;
+            display: flex;
+            padding: 40px 0px;
+        }
+        
+        #errowIcon {
+            margin-left: 10px;
+        }
+        
+        #trustedLogo {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        /* Our Applications Hosting Services Section */
+        
+        #hostingSection {
+            text-align: center;
+        }
+        
+        #hostingInfo {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px 0px;
+            justify-content: space-between;
+        }
+        
+        #hostingText {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20%;
+        }
+        
+        #hostingText>hr {
+            width: 20%;
+            border: 1px solid black;
+            margin-bottom: 30px;
+        }
+        
+        #hostingInfo h1 {
+            font-size: 54px;
+            font-family: Poppins-Medium;
+        }
+        
+        #hostingInfo h1 b {
+            color: red;
+        }
+        
+        #hostingInfo p {
+            font-size: 22px;
+            font-family: Poppins-Regular;
+            padding: 30px 0px;
+        }
+        /* Quick book Section */
+        
+        #hostingContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #quickBook {
+            width: 25%;
+            text-align: center;
+            box-shadow: 0px 2px 12px black;
+        }
+        
+        #quickBook h1 {
+            font-size: 36px;
+            font-family: Poppins-Medium;
+            padding: 30px 0px;
+            color: #FE5858;
+        }
+        
+        #quickBook p {
+            font-size: 22px;
+            font-family: Poppins-Regular;
+            text-align: justify;
+            padding: 0px 20px 100px 20px;
+        }
+        
+        #bookNowBtn {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0px;
+        }
+        
+        #bookNowBtn p {
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-family: Poppins-Medium;
+            background-color: #FE5858;
+            color: white;
+            width: 50%;
+            padding: 10px 30px;
+            border: 1px solid #D44800;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #cloudHosting {
+            width: 50%;
+            margin-left: 20px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #cloudHosting>nav ul li {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            font-family: Poppins-Medium;
+            margin: 0px 10px;
+            padding: 20px 40px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        
+        #CloudHostingBtn {
+            background-color: #EE9617;
+        }
+        
+        #buyLicenseBtn {
+            background-color: #F7F4F2;
+            opacity: 84%;
+            border: 2px dashed #8989A2;
+            border-bottom: none;
+        }
+        
+        #buyLicenseBtn a {
+            color: #8989A2;
+        }
+        
+        #cloudHosting>h1 {
+            font-size: 36px;
+            font-family: oppins-Medium;
+            padding: 30px 7%;
+        }
+        
+        #line {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            height: 2px;
+            width: 280px;
+            margin: 20px 7%;
+        }
+        
+        #cloudHosting>p {
+            font-size: 22px;
+            font-family: oppins-Regular;
+            padding: 40px 7%;
+            width: 80%;
+        }
+        
+        #compareBtn,
+        #exploreBtn {
+            padding: 40px 7%;
+        }
+        
+        #compareBtn>a {
+            font-size: 22px;
+            font-family: oppins-Regular;
+            background: linear-gradient(to right, #FE5858, #EE9617);
+            border: 1px solid #D44800;
+            padding: 10px 40px;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #exploreBtn>a {
+            font-size: 22px;
+            font-family: oppins-Regular;
+            background-color: transparent;
+            border: 1px solid #8989A2;
+            color: #8989A2;
+            padding: 10px 40px;
+            border-radius: 100px;
+            box-shadow: 0px 2px 7px black;
+        }
+        
+        #cloudHostingLink {
+            font-size: 16px;
+            font-family: oppins-Regular;
+            padding: 50px 7%;
+        }
+        
+        #cloudHostingLink>a {
+            color: #FE5858;
+        }
+        
+        #cloudHostingBgImg {
+            width: 25%;
+        }
