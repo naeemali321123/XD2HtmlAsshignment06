@@ -33,7 +33,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    font-weight: bold;
 }
 
 .uniPadding {
@@ -41,9 +40,9 @@ a:hover {
 }
 
 
-/* topbar */
+/* Contact Bar */
 
-#topbar {
+#ContactBar {
     background-color: black;
     color: white;
     font-size: 20px;
@@ -54,34 +53,18 @@ a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-#leftPart,
-#rightPart {
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
-}
-
-#rightPart {
-    justify-content: space-between;
-}
-
-#checkNow {
-    font-family: Poppins-Medium;
-}
-
-#checkNow a {
+#leftPart a {
     color: #EE9617
 }
-
-#comtactSupport {
-    padding-left: 100px;
+#rightPart {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-#comtactSupport a {
-    color: white;
+#rightPart a{
+    padding-left:40px;
 }
-
 
 /* Poster Section */
 
@@ -93,9 +76,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 250px;
 }
 
-#row {
+#posterTopbar {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
@@ -111,28 +95,31 @@ a:hover {
 #navbar ul li {
     text-decoration: none;
     display: inline-block;
-    padding: 15px 10px;
+    padding: 28px 15px;
     font-size: 20px;
 }
-
-#btnTry4Free p {
+#btnTry4Free{
+    padding: 30px 0px;
+}
+#btnTry4Free a {
     font-size: 20px;
     background-color: #D44800;
     padding: 10px 30px;
     border: 1px solid #D44800;
     border-radius: 100px;
+    box-shadow: 0px 2px 7px black;
 }
 
 #posterInfo {
-    width: 50%;
+    width: 60%;
     padding: 150px 0px;
-    justify-items: center;
 }
 
 #posterInfo h5 {
     font-size: 14px;
     font-family: Poppins-Regular;
     opacity: 80%;
+    padding: 20px 0px;
 }
 
 #posterInfo h2 {
@@ -148,24 +135,26 @@ a:hover {
 #posterInfo p {
     font-family: Poppins-Regular;
     font-size: 22px;
+    padding-bottom: 50px ;
 }
 
-#posterBtns {
+#posterBtnSection {
     display: flex;
-    padding-bottom: 250px;
+    flex-wrap: wrap;
     font-size: 20px;
     font-family: Poppins-Medium;
 }
 
-#transparrentBtn {
+#transparrentBtn p{
     font-size: 20px;
     background-color: transparent;
     padding: 10px 30px;
     border: 1px solid white;
     border-radius: 100px;
+    box-shadow: 0px 2px 7px black;
 }
 
-#planBtn {
+#planBtn p{
     margin-left: 30px;
     font-size: 20px;
     background-color: white;
@@ -173,7 +162,7 @@ a:hover {
     padding: 10px 30px;
     border: 1px solid #D44800;
     border-radius: 100px;
-    box-shadow: 3px 5px 10px black;
+    box-shadow: 0px 2px 7px black;
 }
 
 #planBtn a {
@@ -185,10 +174,10 @@ a:hover {
 
 #trustedBySection {
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
-#title {
+#heading {
     font-size: 20px;
     font-family: Poppins-Medium;
     display: flex;
@@ -196,27 +185,38 @@ a:hover {
 }
 
 #errowIcon {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 #trustedLogo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-
 
 /* Our Applications Hosting Services Section */
 
 #hostingSection {
-    background-image: url(../images/background02.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#hostingInfo {
     text-align: center;
-    padding-top: 20px;
+}
+#hostingInfo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+#hostingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+
+}
+#hostingText>hr{
+    width: 20%;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 #hostingInfo h1 {
