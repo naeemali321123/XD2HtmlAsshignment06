@@ -155,8 +155,10 @@
             border-radius: 100px;
             box-shadow: 0px 2px 7px black;
         }
+        /* style Button for plan button and box button */
         
-        #planBtn p {
+        #planBtn p,
+        #button>a>p {
             margin-left: 30px;
             font-size: 20px;
             background-color: white;
@@ -209,9 +211,8 @@
         #hostingText {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
-            padding-left: 20%;
         }
         
         #hostingText>hr {
@@ -234,6 +235,15 @@
             font-family: Poppins-Regular;
             padding: 30px 0px;
         }
+        
+        #bgGrid {
+            width: 300px;
+            height: 200px;
+            background-image: url(../images/backgroundGrid.png);
+            background-size: cover;
+            background-position: center;
+            text-align: right;
+        }
         /* Quick book Section */
         
         #hostingContainer {
@@ -247,6 +257,10 @@
             box-shadow: 0px 2px 12px black;
         }
         
+        #quickBook img {
+            width: 100%;
+        }
+        
         #quickBook h1 {
             font-size: 36px;
             font-family: Poppins-Medium;
@@ -258,7 +272,7 @@
             font-size: 22px;
             font-family: Poppins-Regular;
             text-align: justify;
-            padding: 0px 20px 100px 20px;
+            padding: 0px 20px 50px 20px;
         }
         
         #bookNowBtn {
@@ -280,11 +294,12 @@
             border-radius: 100px;
             box-shadow: 0px 2px 7px black;
         }
+        /* cloud Hosting */
         
         #cloudHosting {
             width: 50%;
             margin-left: 20px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 0px 2px 12px gray;
         }
         
         #cloudHosting>nav ul li {
@@ -374,4 +389,169 @@
         
         #cloudHostingBgImg {
             width: 25%;
+        }
+        /* tax Application Section */
+        
+        #taxApplicationSection {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+            padding-top: 150px;
+        }
+        
+        #taxInfo,
+        #taxCompanyLogo {
+            width: 50%;
+        }
+        
+        #taxInfo h1 {
+            font-size: 54px;
+            font-family: Poppins-Medium;
+            padding: 40px 0px;
+        }
+        
+        #taxInfo h1>a {
+            color: #FE5858;
+            text-decoration: none;
+        }
+        
+        #taxInfo p {
+            font-size: 22px;
+            font-family: Poppins-Regular;
+            padding: 20px 0px;
+            width: 75%;
+        }
+        
+        #taxCompanyLogo>img {
+            padding: 10px;
+            margin: 50px;
+            box-shadow: 2px 5px 12px #707070;
+        }
+        
+        #SecondLogo {
+            position: relative;
+            bottom: 50px;
+        }
+        
+        #thirdLogo {
+            position: relative;
+            left: 50px;
+        }
+        
+        #fourthLogo {
+            position: relative;
+            left: 50px;
+            bottom: 50px;
+        }
+        /* Questions? Section */
+        
+        #questionSection {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0px;
+        }
+        
+        #verticleLine>hr {
+            width: 64px;
+            height: 351px;
+            background: linear-gradient(to top, #EE9617, #f19007);
+        }
+        
+        #questionHeading {
+            padding: 64px 25% 64px 64px;
+        }
+        
+        #questionHeading>h1 {
+            font-size: 40px;
+            font-family: Poppins-Medium;
+        }
+        
+        #questionHeading>h1 a {
+            color: #FE5858;
+            text-decoration: none;
+        }
+        
+        #questionHeading>hr {
+            width: 50%;
+            height: 2px;
+            border: 1px solid black;
+            margin: 20px 0px;
+        }
+        
+        #questionHeading>p {
+            font-size: 22px;
+            font-family: Poppins-Regular;
+            padding: 20px 0px 20px 0px;
+        }
+        
+        #button {
+            width: 485px;
+            height: 351px;
+            background: linear-gradient(to left, #EE9617, #FE5858);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: Poppins-Medium;
+        }
+        /* why ICE Cloud Hosting Section */
+        
+        .bgGridRight {
+            position: relative;
+            top: 50px;
+        }
+        
+        .bgGridLeft {
+            position: relative;
+            bottom: 100px;
+        }
+        
+        .hostingText {
+            padding-left: 0px;
+        }
+        
+        #whyCloudHostingSection {
+            padding: 100px 0px;
+        }
+        /* support Section */
+        
+        #supportSection {
+            padding: 50px 7%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #supportSectionText,
+        #supportSectionImage {
+            width: 43%;
+        }
+        
+        #supportSectionImage img {
+            width: 100%;
+        }
+        
+        #supportSectionText ul li {
+            font-size: 40px;
+            font-family: Poppins-Medium;
+            color: #EE9617;
+        }
+        
+        #supportSectionText ul li a {
+            font-size: 30px;
+            color: black;
+        }
+        
+        #supportSectionText hr {
+            width: 40%;
+            border: 1px solid black;
+            height: 2px;
+            margin: 30px 0px;
+        }
+        
+        #supportSectionText p {
+            font-size: 22px;
+            font-family: Poppins-Regular;
         }
