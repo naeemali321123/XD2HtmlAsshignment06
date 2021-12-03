@@ -512,7 +512,7 @@
         }
         
         #whyCloudHostingSection {
-            padding: 100px 0px;
+            padding: 100px 0px 50px 0px;
         }
         /* support Section */
         
@@ -554,4 +554,90 @@
         #supportSectionText p {
             font-size: 22px;
             font-family: Poppins-Regular;
+        }
+        /* Customer Testimonials Section */
+        
+        #customerTestimonialsSection {
+            display: flex;
+            justify-content: center;
+        }
+        /* Customer Testimonials Like Section */
+        
+        #customerTestimonialsStar {
+            padding: 0px 0px 100px 0px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        #leftErrowSign,
+        #rightErrowSign {
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 100%;
+        }
+        
+        #leftErrowSign {
+            transform: scaleX(-1);
+        }
+        
+        #firstCustomer,
+        #secondCustomer,
+        #thirdCustomer {
+            width: 305px;
+            border: 2px dashed #707070;
+            border-radius: 10px;
+            box-shadow: 2px 5px 12px black;
+        }
+        
+        #firstCustomer>img,
+        #secondCustomer>img,
+        #thirdCustomer>img {
+            border-radius: 10px;
+        }
+        
+        #firstCustomer>h1,
+        #secondCustomer>h1,
+        #thirdCustomer>h1 {
+            font-size: 22px;
+            font-family: Poppins-Medium;
+            padding: 60px 0px 40px 0px;
+        }
+        
+        #firstCustomer>p,
+        #secondCustomer>p,
+        #thirdCustomer>p {
+            font-size: 18px;
+            font-family: Poppins-Medium;
+            padding: 20px 0px;
+        }
+        
+        #secondCustomer {
+            width: 370px;
+        }
+        
+        #secondCustomer>img {
+            background: linear-gradient(to right, #FE5858, #EE9617);
+            padding: 40px 82px;
+        }
+        
+        #secondCustomer>h1 {
+            font-size: 28px;
+        }
+        
+        #secondCustomer>p {
+            font-size: 24px;
+        }
+        
+        #secondCustomer p>a {
+            font-size: 20px;
+            color: #FE5858;
+        }
+        /* social RatingS Section */
+        
+        #socialRatingSSection {
+            display: flex;
+            padding: 30px 10px;
         }
