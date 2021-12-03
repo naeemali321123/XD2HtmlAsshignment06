@@ -2,22 +2,22 @@
             font-family: Poppins-Bold;
             src: url(../fonts/Poppins-Bold.ttf);
         }
-        
+
         @font-face {
             font-family: Poppins-Medium;
             src: url(../fonts/Poppins-Medium.ttf);
         }
-        
+
         @font-face {
             font-family: Poppins-Regular;
             src: url(../fonts/Poppins-Regular.ttf);
         }
-        
+
         @font-face {
             font-family: Poppins-SemiBold;
             src: url(../fonts/Poppins-SemiBold.ttf);
         }
-        
+
         *,
         *::after,
         *::before {
@@ -25,21 +25,22 @@
             margin: 0;
             box-sizing: border-box;
         }
-        
+
         a {
             text-decoration: none;
             color: white;
         }
-        
+
         a:hover {
             text-decoration: underline;
         }
-        
+
         .uniPadding {
             padding: 0px 7%;
         }
+
         /* Contact Bar */
-        
+
         #ContactBar {
             background-color: black;
             color: white;
@@ -51,23 +52,24 @@
             justify-content: space-between;
             flex-wrap: wrap;
         }
-        
+
         #leftPart a {
             color: #EE9617
         }
-        
+
         #rightPart {
             width: 50%;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
-        
+
         #rightPart a {
             padding-left: 40px;
         }
+
         /* Poster Section */
-        
+
         #posterSection {
             background-image: url(../images/background.png);
             background-size: cover;
@@ -78,7 +80,7 @@
             flex-wrap: wrap;
             padding-bottom: 250px;
         }
-        
+
         #posterTopbar {
             display: flex;
             justify-content: space-between;
@@ -86,77 +88,78 @@
             font-family: Poppins-Medium;
             flex-wrap: wrap;
         }
-        
+
         #logo {
             font-size: 46px;
             padding: 10px 0px;
         }
-        
+
         #navbar ul li {
             text-decoration: none;
             display: inline-block;
             padding: 28px 15px;
             font-size: 20px;
         }
-        
+
         #btnTry4Free {
             padding: 30px 0px;
         }
-        
+
         #btnTry4Free a {
             font-size: 20px;
             background-color: #D44800;
             padding: 10px 30px;
             border: 1px solid #D44800;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #posterInfo {
             width: 60%;
             padding: 150px 0px;
         }
-        
+
         #posterInfo h5 {
             font-size: 14px;
             font-family: Poppins-Regular;
             opacity: 80%;
             padding: 20px 0px;
         }
-        
+
         #posterInfo h2 {
             font-size: 36px;
             font-family: Poppins-SemiBold;
         }
-        
+
         #posterInfo h1 {
             font-size: 89px;
             font-family: Poppins-Bold;
         }
-        
+
         #posterInfo p {
             font-family: Poppins-Regular;
             font-size: 22px;
             padding-bottom: 50px;
         }
-        
+
         #posterBtnSection {
             display: flex;
             flex-wrap: wrap;
             font-size: 20px;
             font-family: Poppins-Medium;
         }
-        
+
         #transparrentBtn p {
             font-size: 20px;
             background-color: transparent;
             padding: 10px 30px;
             border: 1px solid white;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
+
         /* style Button for plan button and box button */
-        
+
         #planBtn p,
         #button>a>p {
             margin-left: 30px;
@@ -166,76 +169,78 @@
             padding: 10px 30px;
             border: 1px solid #D44800;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #planBtn a {
             color: #D44800;
         }
+
         /* Trusted By Section */
-        
+
         #trustedBySection {
             padding-top: 50px;
             padding-bottom: 50px;
         }
-        
+
         #heading {
             font-size: 20px;
             font-family: Poppins-Medium;
             display: flex;
             padding: 40px 0px;
         }
-        
+
         #errowIcon {
             margin-left: 10px;
         }
-        
+
         #trustedLogo {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
         /* Our Applications Hosting Services Section */
-        
+
         #hostingSection {
             text-align: center;
         }
-        
+
         #hostingInfo {
             display: flex;
             flex-wrap: wrap;
             padding: 50px 0px;
             justify-content: space-between;
         }
-        
+
         #hostingText {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             align-items: center;
         }
-        
+
         #hostingText>hr {
             width: 20%;
             border: 1px solid black;
             margin-bottom: 30px;
         }
-        
+
         #hostingInfo h1 {
             font-size: 54px;
             font-family: Poppins-Medium;
         }
-        
+
         #hostingInfo h1 b {
             color: red;
         }
-        
+
         #hostingInfo p {
             font-size: 22px;
             font-family: Poppins-Regular;
             padding: 30px 0px;
         }
-        
+
         #bgGrid {
             width: 300px;
             height: 200px;
@@ -244,43 +249,44 @@
             background-position: center;
             text-align: right;
         }
+
         /* Quick book Section */
-        
+
         #hostingContainer {
             display: flex;
             justify-content: space-between;
         }
-        
+
         #quickBook {
             width: 25%;
             text-align: center;
-            box-shadow: 0px 2px 12px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #quickBook img {
             width: 100%;
         }
-        
+
         #quickBook h1 {
             font-size: 36px;
             font-family: Poppins-Medium;
             padding: 30px 0px;
             color: #FE5858;
         }
-        
+
         #quickBook p {
             font-size: 22px;
             font-family: Poppins-Regular;
             text-align: justify;
             padding: 0px 20px 50px 20px;
         }
-        
+
         #bookNowBtn {
             display: flex;
             justify-content: center;
             padding: 50px 0px;
         }
-        
+
         #bookNowBtn p {
             display: flex;
             justify-content: center;
@@ -292,16 +298,17 @@
             padding: 10px 30px;
             border: 1px solid #D44800;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
+
         /* cloud Hosting */
-        
+
         #cloudHosting {
             width: 50%;
             margin-left: 20px;
-            box-shadow: 0px 2px 12px gray;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #cloudHosting>nav ul li {
             text-decoration: none;
             display: inline-block;
@@ -312,28 +319,28 @@
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
         }
-        
+
         #CloudHostingBtn {
             background-color: #EE9617;
         }
-        
+
         #buyLicenseBtn {
             background-color: #F7F4F2;
             opacity: 84%;
             border: 2px dashed #8989A2;
             border-bottom: none;
         }
-        
+
         #buyLicenseBtn a {
             color: #8989A2;
         }
-        
+
         #cloudHosting>h1 {
             font-size: 36px;
             font-family: oppins-Medium;
             padding: 30px 7%;
         }
-        
+
         #line {
             display: flex;
             justify-content: center;
@@ -343,19 +350,19 @@
             width: 280px;
             margin: 20px 7%;
         }
-        
+
         #cloudHosting>p {
             font-size: 22px;
             font-family: oppins-Regular;
             padding: 40px 7%;
             width: 80%;
         }
-        
+
         #compareBtn,
         #exploreBtn {
             padding: 40px 7%;
         }
-        
+
         #compareBtn>a {
             font-size: 22px;
             font-family: oppins-Regular;
@@ -363,9 +370,9 @@
             border: 1px solid #D44800;
             padding: 10px 40px;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #exploreBtn>a {
             font-size: 22px;
             font-family: oppins-Regular;
@@ -374,24 +381,25 @@
             color: #8989A2;
             padding: 10px 40px;
             border-radius: 100px;
-            box-shadow: 0px 2px 7px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #cloudHostingLink {
             font-size: 16px;
             font-family: oppins-Regular;
             padding: 50px 7%;
         }
-        
+
         #cloudHostingLink>a {
             color: #FE5858;
         }
-        
+
         #cloudHostingBgImg {
             width: 25%;
         }
+
         /* tax Application Section */
-        
+
         #taxApplicationSection {
             display: flex;
             justify-content: space-between;
@@ -399,92 +407,93 @@
             padding-bottom: 100px;
             padding-top: 150px;
         }
-        
+
         #taxInfo,
         #taxCompanyLogo {
             width: 50%;
         }
-        
+
         #taxInfo h1 {
             font-size: 54px;
             font-family: Poppins-Medium;
             padding: 40px 0px;
         }
-        
+
         #taxInfo h1>a {
             color: #FE5858;
             text-decoration: none;
         }
-        
+
         #taxInfo p {
             font-size: 22px;
             font-family: Poppins-Regular;
             padding: 20px 0px;
             width: 75%;
         }
-        
+
         #taxCompanyLogo>img {
             padding: 10px;
             margin: 50px;
-            box-shadow: 2px 5px 12px #707070;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #SecondLogo {
             position: relative;
             bottom: 50px;
         }
-        
+
         #thirdLogo {
             position: relative;
             left: 50px;
         }
-        
+
         #fourthLogo {
             position: relative;
             left: 50px;
             bottom: 50px;
         }
+
         /* Questions? Section */
-        
+
         #questionSection {
             display: flex;
             justify-content: space-between;
             margin: 50px 0px;
         }
-        
+
         #verticleLine>hr {
             width: 64px;
             height: 351px;
             background: linear-gradient(to top, #EE9617, #f19007);
         }
-        
+
         #questionHeading {
             padding: 64px 25% 64px 64px;
         }
-        
+
         #questionHeading>h1 {
             font-size: 40px;
             font-family: Poppins-Medium;
         }
-        
+
         #questionHeading>h1 a {
             color: #FE5858;
             text-decoration: none;
         }
-        
+
         #questionHeading>hr {
             width: 50%;
             height: 2px;
             border: 1px solid black;
             margin: 20px 0px;
         }
-        
+
         #questionHeading>p {
             font-size: 22px;
             font-family: Poppins-Regular;
             padding: 20px 0px 20px 0px;
         }
-        
+
         #button {
             width: 485px;
             height: 351px;
@@ -495,27 +504,29 @@
             font-size: 20px;
             font-family: Poppins-Medium;
         }
+
         /* why ICE Cloud Hosting Section */
-        
+
         .bgGridRight {
             position: relative;
             top: 50px;
         }
-        
+
         .bgGridLeft {
             position: relative;
             bottom: 100px;
         }
-        
+
         .hostingText {
             padding-left: 0px;
         }
-        
+
         #whyCloudHostingSection {
             padding: 100px 0px 50px 0px;
         }
+
         /* support Section */
-        
+
         #supportSection {
             padding: 50px 7%;
             display: flex;
@@ -523,46 +534,48 @@
             justify-content: space-between;
             align-items: center;
         }
-        
+
         #supportSectionText,
         #supportSectionImage {
             width: 43%;
         }
-        
+
         #supportSectionImage img {
             width: 100%;
         }
-        
+
         #supportSectionText ul li {
             font-size: 40px;
             font-family: Poppins-Medium;
             color: #EE9617;
         }
-        
+
         #supportSectionText ul li a {
             font-size: 30px;
             color: black;
         }
-        
+
         #supportSectionText hr {
             width: 40%;
             border: 1px solid black;
             height: 2px;
             margin: 30px 0px;
         }
-        
+
         #supportSectionText p {
             font-size: 22px;
             font-family: Poppins-Regular;
         }
+
         /* Customer Testimonials Section */
-        
+
         #customerTestimonialsSection {
             display: flex;
             justify-content: center;
         }
+
         /* Customer Testimonials Like Section */
-        
+
         #customerTestimonialsStar {
             padding: 0px 0px 100px 0px;
             text-align: center;
@@ -571,33 +584,33 @@
             align-items: center;
             flex-wrap: wrap;
         }
-        
+
         #leftErrowSign,
         #rightErrowSign {
             padding: 20px;
             border: 2px solid black;
             border-radius: 100%;
         }
-        
+
         #leftErrowSign {
             transform: scaleX(-1);
         }
-        
+
         #firstCustomer,
         #secondCustomer,
         #thirdCustomer {
             width: 305px;
             border: 2px dashed #707070;
             border-radius: 10px;
-            box-shadow: 2px 5px 12px black;
+            box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
         }
-        
+
         #firstCustomer>img,
         #secondCustomer>img,
         #thirdCustomer>img {
             border-radius: 10px;
         }
-        
+
         #firstCustomer>h1,
         #secondCustomer>h1,
         #thirdCustomer>h1 {
@@ -605,7 +618,7 @@
             font-family: Poppins-Medium;
             padding: 60px 0px 40px 0px;
         }
-        
+
         #firstCustomer>p,
         #secondCustomer>p,
         #thirdCustomer>p {
@@ -613,31 +626,81 @@
             font-family: Poppins-Medium;
             padding: 20px 0px;
         }
-        
+
         #secondCustomer {
             width: 370px;
         }
-        
+
         #secondCustomer>img {
             background: linear-gradient(to right, #FE5858, #EE9617);
             padding: 40px 82px;
         }
-        
+
         #secondCustomer>h1 {
             font-size: 28px;
         }
-        
+
         #secondCustomer>p {
             font-size: 24px;
         }
-        
+
         #secondCustomer p>a {
             font-size: 20px;
             color: #FE5858;
         }
+
         /* social RatingS Section */
-        
-        #socialRatingSSection {
+
+        #socialRatingSection {
             display: flex;
-            padding: 30px 10px;
+            padding: 100px 7%;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
+
+        #socialRating1 {
+            display: flex;
+            padding: 50px 0px;
+        }
+
+        #iconSocial {
+            padding: 10px;
+        }
+
+        #socialTitleAndStar>p {
+            font-size: 20px;
+            font-family: Poppins-Medium;
+            padding: 5px 0px;
+        }
+
+        #socialTitleAndStar>img {
+            padding: 5px;
+        }
+
+        #socialRatingSection hr {
+            height: 100px;
+            border: 1px solid rgba(0, 0, 0, .30);
+            background-color: rgba(0, 0, 0, .30);
+            margin: 50px;
+        }
+        /* Free Services And Footer Section */
+        /* #freeServiceSection{
+            display: flex;
+            background-image: url(../images/freeService.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* footer Section */
+        /* #footer{
+            background-image: url(../images/footer.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-size: 22px;
+            font-family: Poppins-Regular;
+        } */ */
