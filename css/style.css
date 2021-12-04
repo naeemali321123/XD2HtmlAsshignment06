@@ -42,7 +42,7 @@ a:hover {
 
 /* Contact Bar */
 
-#ContactBar {
+#contactBar {
     background-color: black;
     color: white;
     font-size: 20px;
@@ -459,10 +459,10 @@ a:hover {
 
 #questionSection {
     display: grid;
-    grid-template-columns: 10% 65% 30%;
+    grid-template-columns: 64px 1fr 351px;
     grid-template-rows: auto;
-    justify-content: space-between;
-    margin: 50px 0px;
+    justify-content: center;
+    padding: 50px 7%;
 }
 
 #verticleLine>hr {
@@ -482,13 +482,13 @@ a:hover {
     padding: 0px 20px;
 }
 
-#questionHeading>h1 a {
+#questionHeading>h1 a   {
     color: #FE5858;
     text-decoration: none;
 }
 
 #questionHeading>hr {
-    width: 50%;
+    width: 60%;
     height: 2px;
     border: 1px solid black;
     margin: 20px 20px;
@@ -500,15 +500,23 @@ a:hover {
     padding: 20px;
 }
 
-#buttonBox {
+#button {
     width: 100%;
     height: 351px;
     background: linear-gradient(to left, #EE9617, #FE5858);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#button p{
+    width: 220px;
     font-size: 20px;
     font-family: Poppins-Medium;
+    background-color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 100px;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -525,27 +533,19 @@ a:hover {
 }
 
 #whyCloudHostingSection {
-    padding: 100px 0px 100px 0px;
+    padding: 150px 0px 100px 0px;
 }
 
 
 /* support Section */
 
 #supportSection {
-    padding: 50px 7%;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0px 7%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
     justify-content: space-between;
     align-items: center;
-}
-
-#supportSectionText,
-#supportSectionImage {
-    width: 43%;
-}
-
-#supportSectionImage img {
-    width: 100%;
 }
 
 #supportSectionText ul li {
@@ -570,25 +570,32 @@ a:hover {
     font-size: 22px;
     font-family: Poppins-Regular;
 }
+#supportSectionImage{
+    width: 100%;
+    display: grid;
+    justify-content: right;
+}
 
 
 /* Customer Testimonials Section */
 
 #customerTestimonialsSection {
-    display: flex;
+    display: grid;
     justify-content: center;
+    padding: 150px 0px;
 }
 
 
 /* Customer Testimonials Like Section */
 
 #customerTestimonialsStar {
-    padding: 0px 0px 100px 0px;
+    padding-bottom: 100px;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 #leftErrowSign,
@@ -659,14 +666,17 @@ a:hover {
 /* social RatingS Section */
 
 #socialRatingSection {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: auto;
+    justify-content: space-around;
     padding: 100px 7%;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 #socialRating1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 90px 250px;
+    grid-template-rows: auto;
     padding: 50px 0px;
 }
 
@@ -688,7 +698,7 @@ a:hover {
     height: 100px;
     border: 1px solid rgba(0, 0, 0, .30);
     background-color: rgba(0, 0, 0, .30);
-    margin: 50px;
+    margin: 50px 0px;
 }
 
 
@@ -702,40 +712,32 @@ a:hover {
     width: 100%;
     color: white;
     display: grid;
-    grid-template-columns: repeat(2 minmax(50% 1fr));
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: space-around;
     align-items: flex-end;
     text-align: center;
 }
-
 #subscribe {
-    display: flex;
-    justify-content: space-around;
-}
-
-#subscribe p {
+    padding: 30px 200px;
     font-size: 40px;
     font-family: Poppins-Medium;
 }
 
-#subscribe form {
-    padding: 30px 200px;
-}
-
-#subscribe form input {
+#subscribe input {
     padding: 20px 180px 20px 20px;
+    color: white;
     font-size: 24px;
     border: 2px solid white;
     border-radius: 100px;
     background: transparent;
 }
 
-#subscribe form input::placeholder {
+#subscribe input::placeholder {
     color: white;
 }
 
-#subscribe form a {
+#subscribe a {
     background-color: white;
     color: #FE5858;
     padding: 18px 20px 18px 20px;
@@ -747,10 +749,35 @@ a:hover {
     position: relative;
     right: 70px;
 }
-
+#subscribe a:hover{
+    text-decoration: none;
+    font-family: Poppins-Bold;
+}
 #footer {
     grid-column: 1/-1;
     font-size: 18px;
     font-family: Poppins-Regular;
     padding-bottom: 15px;
+}
+/* iPad Pro reponsive */
+@media only screen And (max-width: 1024px){
+    #contactBar{
+        display: grid;
+        grid-template-columns: repeat(aoto-fit, minmax(auto));
+    }
+    #posterSection{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #posterTopbar,
+    #btnTry4Free,
+    #navbar{
+        grid-column: 1/-1;
+        
+        justify-content: center;
+    }
+    #navbar ul li{
+        padding: 10px 8px;
+    }
+    
 }
