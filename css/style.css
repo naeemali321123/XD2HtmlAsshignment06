@@ -482,7 +482,7 @@ a:hover {
     padding: 0px 20px;
 }
 
-#questionHeading>h1 a   {
+#questionHeading>h1 a {
     color: #FE5858;
     text-decoration: none;
 }
@@ -508,7 +508,8 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-#button p{
+
+#button p {
     width: 220px;
     font-size: 20px;
     font-family: Poppins-Medium;
@@ -570,7 +571,8 @@ a:hover {
     font-size: 22px;
     font-family: Poppins-Regular;
 }
-#supportSectionImage{
+
+#supportSectionImage {
     width: 100%;
     display: grid;
     justify-content: right;
@@ -718,6 +720,7 @@ a:hover {
     align-items: flex-end;
     text-align: center;
 }
+
 #subscribe {
     padding: 30px 200px;
     font-size: 40px;
@@ -749,35 +752,66 @@ a:hover {
     position: relative;
     right: 70px;
 }
-#subscribe a:hover{
+
+#subscribe a:hover {
     text-decoration: none;
     font-family: Poppins-Bold;
 }
+
 #footer {
     grid-column: 1/-1;
     font-size: 18px;
     font-family: Poppins-Regular;
     padding-bottom: 15px;
 }
+
+
 /* iPad Pro reponsive */
-@media only screen And (max-width: 1024px){
-    #contactBar{
+
+@media only screen And (max-width: 1024px) {
+    #contactBar {
         display: grid;
         grid-template-columns: repeat(aoto-fit, minmax(auto));
     }
-    #posterSection{
+    #posterSection {
         display: grid;
         grid-template-columns: auto auto;
     }
     #posterTopbar,
+    #logo,
     #btnTry4Free,
-    #navbar{
+    #navbar {
         grid-column: 1/-1;
-        
         justify-content: center;
+        text-align: center;
     }
-    #navbar ul li{
+    #navbar ul li {
         padding: 10px 8px;
     }
-    
+    #posterInfo h2 {
+        font-size: 24px;
+    }
+    #posterInfo h1 {
+        font-size: 60px;
+    }
+    #posterInfo {
+        padding: 50px 7%;
+    }
+    #trustedBySection {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    #trustedLogo {
+        padding: 50px 0px;
+    }
+    .bgGrid {
+        display: none;
+    }
+    .hostingText {}
+    .hostingText>h1 {
+        font-size: 30px;
+    }
+    .hostingText>p {
+        font-size: 18px;
+    }
 }
