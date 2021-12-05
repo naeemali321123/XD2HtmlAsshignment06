@@ -813,247 +813,284 @@ a:hover {
     .hostingText>p {
         font-size: 18px;
     }
-    #hostingContainer{
+    #hostingContainer {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
     }
-    #cloudHostingBgImg img{
+    #cloudHostingBgImg img {
         width: 100%;
     }
-    #cloudHosting{
+    #cloudHosting {
         margin: 50px 0px;
     }
-    #quickBook>p{
+    #quickBook>p {
         font-size: 40px;
         padding: 60px 30px;
     }
-        
-    #bookNowBtn{
+    #bookNowBtn {
         margin: 200px 0px;
     }
-    #taxApplicationSection{
+    #taxApplicationSection {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    #taxInfo{
+    #taxInfo {
         text-align: center;
     }
-    #taxInfo p{
+    #taxInfo p {
         width: 100%;
         padding: 20;
     }
-    #questionSection{
+    #questionSection {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #button{
+    #button {
         width: 80%;
     }
-    #verticleLine hr{
+    #verticleLine hr {
         width: 660px;
         height: 64px;
     }
-    #questionHeading{
+    #questionHeading {
         margin: 50px 0px;
     }
-    #whyCloudHostingSection{
+    #whyCloudHostingSection {
         grid-template-columns: auto;
         justify-content: center;
         padding: 50px 0px;
     }
-    #bgGridRight,#bgGridLeft{
+    #bgGridRight,
+    #bgGridLeft {
         display: none;
     }
-    .hostingText>h1{
+    .hostingText>h1 {
         font-size: 36px;
     }
-    #supportSection{
+    #supportSection {
         display: grid;
         grid-template-columns: auto;
         padding: 50px;
     }
-    #supportSectionText ul li{
+    #supportSectionText ul li {
         align-items: center;
         text-decoration: none;
-        display: inline-block;   
+        display: inline-block;
     }
-    #supportSectionText ul li a{
+    #supportSectionText ul li a {
         font-size: 48px;
     }
-    #supportSectionText p{
+    #supportSectionText p {
         font-size: 36px;
     }
-    #supportSectionImage{
+    #supportSectionImage {
         width: 100%;
     }
-    #customerTestimonialsSection{
+    #customerTestimonialsSection {
         padding: 70px 0px;
     }
-    #customerTestimonialsStar{
+    #customerTestimonialsStar {
         grid-template-columns: auto auto;
         justify-items: center;
         align-items: center;
     }
-    #leftErrowSign, #rightErrowSign{
+    #leftErrowSign,
+    #rightErrowSign {
         display: none;
     }
-    #secondCustomer{
+    #secondCustomer {
         margin: 50px 0px;
         grid-column: 1/-1;
     }
-    #thirdCustomer{
+    #thirdCustomer {
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    #socialRatingSection{
+    #socialRatingSection {
         grid-template-columns: auto auto;
     }
-    #socialRatingSection hr{
+    #socialRatingSection hr {
         display: none;
     }
-    #freeServiceAndFooterSection{
+    #freeServiceAndFooterSection {
         grid-template-columns: auto;
     }
-    #freeServiceAndFooterSection form{
+    #freeServiceAndFooterSection form {
         display: flex;
         padding: 20px;
-    }    
+    }
 }
+
+
 /* mobile responsive */
 
 @media only screen And (max-width: 500px) {
-#contactBar{
-    font-size: 16px;
-}
-#logo{
-    font-size: 24px;
-}
-#navbar ul li{
-    font-size: 16px;
-}
-#btnTry4Free{
-    padding: 10px 30px;
-}
-#posterInfo h2,
-#posterInfo p{
-    font-size: 16px;
-}
-#posterInfo h1{
-    font-size: 32px;
-    padding: 20px 0px;
-}
-#posterBtnSection{
-    flex-direction: column;    
-}
-#posterSection{
-    padding-bottom: 0px;
-}
-#transparrentBtn p a{
-    color: black;
-}
-#planBtn, #transparrentBtn{
-    width: 300px;
-    margin: 20px 0px;
-}
-#planBtn p, #transparrentBtn p{
-    margin: 0px;
-    width: 260px;
-}
-#trustedBySection{
-    grid-template-columns: auto;
-    justify-items: center;
-}
-#trustedBySection>p{
-    padding: 0px;
-}
-#trustedBySection p{
-    transform: rotate(45deg);
-}
-.hostingText{
-    padding: 20px;
-    text-align: center;
-}
-.hostingSection{
-    padding: 0px;
-}
-.hostingText h1{
-    font-size: 28px;
-}
-#cloudHosting>nav ul li{
-    font-size: 16px;
-    padding: 5px 12px;
-}
-#quickBook p{
-    font-size: 18px;
-}
-#bookNowBtn{
-    margin: 20px 0px ;
-}
-#taxApplicationSection{
-    padding: 0px;
-    position: none;
-}
-#cloudHosting p{
-    width: 100%;
-}
-#exploreBtn a{
-    font-size: 18px;
-    padding: 10px 22px;
-}
-#cloudHostingLink{
-    font-size: 12px;
-    text-align: center;
-}
-#taxCompanyLogo img{
-    width: 70%;
-    position: static;
-}
-#taxApplicationSection{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-direction: column;
-}
-#taxInfo h1{
-    font-size: 36px;
-}
-#taxInfo p{
-    font-size: 18px;
-    text-align: justify;
-    padding: 30px;
-}
-#questionHeading h1, #questionHeading p{
-    font-size: 18px;
-}
-#questionHeading hr{
-    width: 80%;
-}
-#button{
-    width: 100%;
-}
-#whyCloudHostingSection{
-    padding: 0px;
-}
-#supportSectionText ul li a{
-    font-size: 24px;
-}
-#supportSectionText hr{
-    width: 90%;
-}
-#supportSectionText p{
-    font-size: 18px;
-}
-#supportSectionImage img{
-    width: 100%;
-}
-#customerTestimonialsStar{
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
-
+    #contactBar {
+        font-size: 16px;
+    }
+    #logo {
+        font-size: 24px;
+    }
+    #navbar ul li {
+        font-size: 16px;
+    }
+    #btnTry4Free {
+        padding: 10px 30px;
+    }
+    #posterInfo h2,
+    #posterInfo p {
+        font-size: 16px;
+    }
+    #posterInfo h1 {
+        font-size: 32px;
+        padding: 20px 0px;
+    }
+    #posterBtnSection {
+        flex-direction: column;
+    }
+    #posterSection {
+        padding-bottom: 0px;
+    }
+    #transparrentBtn p a {
+        color: black;
+    }
+    #planBtn,
+    #transparrentBtn {
+        width: 300px;
+        margin: 20px 0px;
+    }
+    #planBtn p,
+    #transparrentBtn p {
+        margin: 0px;
+        width: 260px;
+    }
+    #trustedBySection {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+    #trustedBySection>p {
+        padding: 0px;
+    }
+    #trustedBySection p {
+        transform: rotate(45deg);
+    }
+    .hostingText {
+        padding: 20px;
+        text-align: center;
+    }
+    .hostingSection {
+        padding: 0px;
+    }
+    .hostingText h1 {
+        font-size: 28px;
+    }
+    #cloudHosting>nav ul li {
+        font-size: 16px;
+        padding: 5px 12px;
+    }
+    #quickBook p {
+        font-size: 18px;
+    }
+    #bookNowBtn {
+        margin: 20px 0px;
+    }
+    #taxApplicationSection {
+        padding: 0px;
+        position: none;
+    }
+    #cloudHosting p {
+        width: 100%;
+    }
+    #exploreBtn a {
+        font-size: 18px;
+        padding: 10px 22px;
+    }
+    #cloudHostingLink {
+        font-size: 12px;
+        text-align: center;
+    }
+    #taxCompanyLogo img {
+        width: 70%;
+        position: static;
+    }
+    #taxApplicationSection {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-direction: column;
+    }
+    #taxInfo h1 {
+        font-size: 36px;
+    }
+    #taxInfo p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 30px;
+    }
+    #questionHeading h1,
+    #questionHeading p {
+        font-size: 18px;
+    }
+    #questionHeading hr {
+        width: 80%;
+    }
+    #verticleLine {
+        display: none;
+    }
+    #button {
+        width: 100%;
+        height: 200px;
+    }
+    #whyCloudHostingSection {
+        padding: 0px;
+    }
+    #supportSectionText ul li a {
+        font-size: 24px;
+    }
+    #supportSectionText hr {
+        width: 90%;
+    }
+    #supportSectionText p {
+        font-size: 18px;
+    }
+    #supportSectionImage img {
+        width: 100%;
+    }
+    #customerTestimonialsStar {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 10px;
+    }
+    #secondCustomer {
+        width: 85%;
+    }
+    #secondCustomer>img {
+        width: 100%;
+    }
+    #socialRatingSection {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 50px 10px;
+    }
+    #freeServiceAndFooterSection {
+        display: flex;
+        flex-direction: column;
+    }
+    #freeServiceAndFooterSection>p {
+        font-size: 18px;
+    }
+    #subscribe>input,
+    #subscribe>a {
+        font-size: 12px;
+        padding: 2px 20px;
+    }
+    #subscribe>a {
+        right: 15px;
+    }
+    #footer p {
+        font-size: 14px;
+    }
 }
